@@ -1,4 +1,5 @@
 import express from "express"
+import mongoose from "mongoose";
 import { getUser, getUsers, postUser } from "../controllers/userRegistration";
 
 const router = express.Router();
